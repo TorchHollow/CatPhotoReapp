@@ -17,7 +17,7 @@
 
     <div class="lasagna">
         <h2>Cat List</h2>
-        
+
         <h3>Things cats love:</h3>
 
         <ul>
@@ -42,6 +42,29 @@
 
     <h2>Cat Form</h2>
 
+    <form action="/Obrigado.html">
+        <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <input type="radio" id="indoor" name="emporta" value="Indoor">
+            <label for="indoor">Indoor</label>
+            <input type="radio" id="outdoor" name="saiporta" value="Outdoor">
+            <label for="outdoor">Outdoor</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input type="checkbox" id="emotion1" name="amoroso" value="Loving">
+            <label for="emotion1">Loving</label>
+            <input type="checkbox" id="emotion2" name="preguiçoso" value="Lazy">
+            <label for="emotion2">Lazy</label>
+            <input type="checkbox" id="emotion3" name="capeta" value="Energetic">
+            <label for="emotion3">Loving</label>
+        </fieldset>
+
+        <input type="url" id="catphotos" name="photourl" placeholder="cat photo URL">
+        <input type="submit" value="Enviar">
+
+    </form>
 </body>
 
 </html>
